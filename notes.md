@@ -84,3 +84,7 @@
   - Found thread by Prof. Graham that proposed possible python install conflicts then reinstallation of ffmpeg --> I couldn't find any conflicts thus reinstalling ffmpeg made no difference
   - CONCLUSION: I have surrendered to this activity, I could not find a productive solution that made it work :(
     - Will try again later on my own time
+
+
+### Additional notes
+- If you accidently forget to ignore the .DS_Store files at first, you can enter ```find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch``` to remove all occurences of it from your repo
